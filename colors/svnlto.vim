@@ -4,6 +4,14 @@
 " Maintainer:  Sven Lito <me@svenlito.com
 " License:     public domain
 "
+let g:airline_theme='svnlto'
+
+" Vim color scheme
+"
+" Name:        svnltovim
+" Maintainer:  Sven Lito <me@svenlito.com
+" License:     public domain
+"
 
 set background=dark
 hi clear
@@ -128,4 +136,8 @@ hi link htmlEndTag           xmlEndTag
 hi xmlTag                    guifg=#E8BF6A ctermfg=179
 hi xmlTagName                guifg=#E8BF6A ctermfg=179
 hi xmlEndTag                 guifg=#E8BF6A ctermfg=179
+
+hi jsObjectKey               guifg=#CC7833 ctermfg=173 gui=NONE
+hi jsFunction                guifg=#FFC66D ctermfg=221 gui=NONE
+hi jsThis                    guifg=#DA4939 ctermfg=221 gui=NONE
 
